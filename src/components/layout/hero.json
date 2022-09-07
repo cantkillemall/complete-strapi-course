@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_layout_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "window-maximize"
+  },
+  "options": {},
+  "attributes": {
+    "callToAction": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": false
+    },
+    "buttons": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    }
+  }
+}
